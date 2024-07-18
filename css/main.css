@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.conic{
+    width: 400px;
+    height: 400px;
+    background-color: #ddd;
+    margin: auto;
+    background-image: conic-gradient(#fff, green);
+    border-radius: 50%;
+    transition: 10s, infinite;
+}
+.conic:hover{
+    transform: rotate(360deg);
+}
